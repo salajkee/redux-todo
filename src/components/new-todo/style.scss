@@ -1,0 +1,33 @@
+.new-todo {
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	overflow: hidden;
+
+	&__input {
+		width: 300px;
+		height: 35px;
+		padding: 0 20px;
+		font-family: inherit;
+		border: none;
+		background-color: #fff;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&__btn {
+		width: 100px;
+		height: 35px;
+		font-size: 16px;
+		color: #fff;
+		cursor: pointer;
+		border: none;
+		background-color: #4f6f52;
+
+		&:focus {
+			outline: none;
+		}
+	}
+}

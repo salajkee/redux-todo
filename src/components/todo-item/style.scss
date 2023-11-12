@@ -1,0 +1,29 @@
+.todo-item {
+	display: flex;
+	align-items: center;
+	column-gap: 15px;
+
+	&__checkbox {
+		flex: 0 1 15px;
+		width: 15px;
+		height: 15px;
+	}
+
+	&__title {
+		flex: 1 1 auto;
+		font-size: 16px;
+		color: #fff;
+	}
+
+	&__close {
+		flex: 0 1 20px;
+		width: 20px;
+		height: 20px;
+		font-size: 18px;
+		color: #fff;
+		margin-left: auto;
+		cursor: pointer;
+		border: none;
+		background-color: #4f6f52;
+	}
+}
